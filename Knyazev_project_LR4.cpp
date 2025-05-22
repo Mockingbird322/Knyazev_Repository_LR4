@@ -52,7 +52,9 @@ int main() {
 
 // Определения функций (пока пустые)
 void enterRealNumber() {
-
+    cout << "Введите вещественное число x: ";
+    cin >> x;
+    cout << "Сохранено: x = " << x << endl;
 }
 
 void enterNaturalNumber() {
