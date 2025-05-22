@@ -58,7 +58,14 @@ void enterRealNumber() {
 }
 
 void enterNaturalNumber() {
-
+    do {
+        cout << "Введите натуральное число y (целое > 0): ";
+        cin >> y;
+        if (y <= 0) {
+            cout << "Ошибка: введите положительное натуральное число.\n";
+        }
+    } while (y <= 0);
+    cout << "Сохранено: y = " << y << endl;
 }
 
 void roundX() {
