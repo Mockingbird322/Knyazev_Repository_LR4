@@ -64,5 +64,6 @@ void roundX() {
 }
 
 void discardIntegerPart() {
-    
+    double fractional = x - floor(x);
+    cout << "Дробная часть x (без целой части): " << fractional << endl;
 }
